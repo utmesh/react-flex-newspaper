@@ -1,0 +1,85 @@
+h1{
+    font-size: 60px;
+    text-align: center;
+    font-weight: normal;
+    font-family: 'Great Vibes', cursive;
+    margin: 60px 0px;
+}
+.row{
+    display: flex;
+    align-items: stretch;
+}
+.storyTitle{
+    font-weight: normal;
+    font-style: italic;
+    font-size: 30px;
+    margin: 15px 0;
+    text-align: center;
+
+}
+
+.storyText{
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.story{
+    border: 1px solid #333;
+    padding: 5px;
+
+}
+.quarter{
+    width:25%
+}
+
+.Half{
+    width: 50%;
+}
+
+.Half img{
+    width: 100%;
+
+}
+.navList{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.navItem{
+    width:100%;
+    flex: 1; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color:#555;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navList a{
+    text-decoration: none;
+    color: #555;
+}
+
+.navItem a:hover{
+    text-decoration: underline;
+}
+
+.navItem:nth-child(1){
+    background-color:#ffeaa7 ;
+}
+.navItem:nth-child(2){
+    background-color:#81ecec;
+}
+.navItem:nth-child(3){
+    background-color:#55efc4 ;
+}
+.navItem:nth-child(4){
+    background-color:#74b9ff ;
+}
+.navItem:nth-child(5){
+    background-color:#a29bfe ;
+}
